@@ -8,8 +8,8 @@ pipeline {
     }
     stage('Deploy') {
       steps {
-        bat 'docker run -d -p 8500:8500 temp'
+        bat 'docker run -d -p 8000:5000 temp'
       }
     }
-    }
+  }
 }
